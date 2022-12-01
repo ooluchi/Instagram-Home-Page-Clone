@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    color: black;
+}
+.wrapper{
+    display:flex;
+    flex-direction: row;
+}
+.sidebar{
+    background-color: #fff;
+    display: flex;
+    flex-direction:column;
+    padding-top: 20px;
+    padding-left: 20px;
+    /* position: fixed;
+    border-right: solid; */
+}
+.logo img{
+    width: 100px;
+}
+.home{
+   display: flex; 
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+.home img{
+    width: 30px;   
+}
+.home h5{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.search{
+    display: flex; 
+    padding-top: 20px;
+    padding-bottom: 10px;
+ }
+ .search img{
+     width: 30px;   
+ }
+ .search p{
+    font-size: 25px;
+    padding-left: 10px;
+ }
+ .explore{
+    display: flex; 
+   padding-top: 20px;
+   padding-bottom: 10px;
+ }
+ .explore img{
+     width: 30px;   
+ }
+ .explore p{
+    font-size: 25px;
+    padding-left: 10px;
+ }
+ .message{
+    display: flex; 
+   padding-top: 20px;
+   padding-bottom: 10px;
+ }
+ .message img{
+     width: 30px;   
+ }
+ .message p{
+    font-size: 25px;
+    padding-left: 10px;
+ }
+ .notification{
+    display: flex; 
+   padding-top: 20px;
+   padding-bottom: 10px;
+ }
+ .notification img{
+     width: 30px;   
+ }
+ .notification p{
+    font-size: 25px;
+    padding-left: 10px;
+ }
+ .create{
+    display: flex; 
+   padding-top: 20px;
+   padding-bottom: 10px;
+ }
+ .create img{
+     width: 30px;   
+ }
+ .create p{
+    font-size: 25px;
+    padding-left: 10px;
+ }
+ .profile{
+    display: flex; 
+   padding-top: 20px;
+   padding-bottom: 10px;
+ }
+ .profile img{
+     width: 30px;   
+ }
+ .profile p{
+    font-size: 25px;
+    padding-left: 10px;
+ }
+ .main{
+    background-color: #fafafa;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+ .stories{
+    background-color: white;
+    border: 3px solid rgb(181, 176, 176);
+    border-radius: 2px;
+    width:  70%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    padding-left: 200px;
+    /* position: absolute; */
+ }
+ .stories img{
+    border-radius: 50%;
+    border: 3px solid transparent; 
+    background: linear-gradient(45deg,orange,purple) border-box; 
+    width: 90px;
+ }
+ .post-1{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+ }
+ .name{
+    display: flex;
+    flex-direction: row;  
+    width: 600px;
+    height: 300px;
+ }
+ .lines img{
+    width: 40px;
+ }
+
+ 
