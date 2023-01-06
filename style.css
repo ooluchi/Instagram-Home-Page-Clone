@@ -4,7 +4,11 @@
     box-sizing:border-box;
     text-decoration: none;
     color: black;
+    font-family: sans-serif;
 }
+/* .wrapper{
+   display: flex;
+} */
 .wrapper{
     display:flex;
     flex-direction: row;
@@ -15,136 +19,220 @@
     flex-direction:column;
     padding-top: 20px;
     padding-left: 20px;
+    width: 18%;
+
     /* position: fixed;
     border-right: solid; */
 }
 .logo img{
     width: 100px;
+    position: fixed;
 }
-.home{
+.nav{
    display: flex; 
+   flex-direction: column;
+   position:fixed;
+   padding-top: 40px;
+}
+.nav img{
+    width: 25px;   
+}
+.nav p{
+    padding-left: 10px;
+}
+.icon{
+   display: flex;
    padding-top: 20px;
    padding-bottom: 10px;
 }
-.home img{
-    width: 30px;   
-}
-.home h5{
-    font-size: 25px;
-    padding-left: 10px;
-}
-.search{
-    display: flex; 
-    padding-top: 20px;
-    padding-bottom: 10px;
+
+ section{
+    background-color: #fafafa;
+    display: flex;
+    padding: 30px;
+    width: 88%
+   
  }
- .search img{
-     width: 30px;   
+ .left-side{
+   padding-left: 20px;
  }
- .search p{
-    font-size: 25px;
-    padding-left: 10px;
+ .story{
+   display: flex;
+    background-color: white;
+    padding: 5px;
+    margin-top: 25px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    width: 500px;
  }
- .explore{
-    display: flex; 
-   padding-top: 20px;
-   padding-bottom: 10px;
+ .story .stories{
+   width: 17%;
  }
- .explore img{
-     width: 30px;   
+ .story .stories a img{
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right,orange,purple) border-box;
+    object-fit: cover;
  }
- .explore p{
-    font-size: 25px;
-    padding-left: 10px;
+ .story .stories p{
+   width: 50%;
+   overflow: hidden;
+   font-size: 12px;
+   text-overflow: ellipsis;
  }
- .message{
-    display: flex; 
-   padding-top: 20px;
-   padding-bottom: 10px;
+ 
+ .posts{
+   margin: 25px 0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   width: 500px;
+   background-color: white;
  }
- .message img{
-     width: 30px;   
+ .posts-title{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px;
  }
- .message p{
-    font-size: 25px;
-    padding-left: 10px;
+ .posts-left{
+   display: flex;
+   align-items: center;
  }
- .notification{
-    display: flex; 
-   padding-top: 20px;
-   padding-bottom: 10px;
+ .posts-left .image img{
+   border-radius: 50%;
  }
- .notification img{
-     width: 30px;   
+ .posts-left .details .username{
+   padding-left: 10px;
+   font-weight: bold;
  }
- .notification p{
-    font-size: 25px;
-    padding-left: 10px;
+ .footer-icon{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   font-size: 30px;
  }
- .create{
-    display: flex; 
-   padding-top: 20px;
-   padding-bottom: 10px;
+ .posts-footer-content{
+  padding: 0 15px 15px 15px;
  }
- .create img{
-     width: 30px;   
+ .posts-footer-content p{
+  margin-bottom: 9px;
  }
- .create p{
-    font-size: 25px;
-    padding-left: 10px;
- }
- .profile{
-    display: flex; 
-   padding-top: 20px;
-   padding-bottom: 10px;
+ .posts-footer-content .likes{
+  font-size: 15px;
  }
  .profile img{
      width: 30px;   
  }
- .profile p{
-    font-size: 25px;
-    padding-left: 10px;
+ .posts-footer-content .name span{
+  font-weight: normal;
  }
- .main{
-    background-color: #fafafa;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+ .posts-footer-content .post-time{
+  font-size: 10px;
+  font-weight: lighter;
+  color: grey;
+  margin-top: 15px;
  }
- .stories{
-    background-color: white;
-    border: 3px solid rgb(181, 176, 176);
-    border-radius: 2px;
-    width:  70%;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 0;
-    padding-left: 200px;
-    /* position: absolute; */
+ .posts-footer-content .comments{
+  font-size: 14px;
+  color: grey;
  }
- .stories img{
-    border-radius: 50%;
-    border: 3px solid transparent; 
-    background: linear-gradient(45deg,orange,purple) border-box; 
-    width: 90px;
+ .adding-comments{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 1px solid rgb(228, 226, 226);
  }
- .post-1{
-    display: flex;
-    flex-direction: column;
-    height: 300px;
+ .adding-comments .comments-left{
+  display: flex;
  }
- .name{
-    display: flex;
-    flex-direction: row;  
-    width: 600px;
-    height: 300px;
+ .adding-comments .comments-left input{
+  border-style: none;
+  outline: none;
+  margin-left: 10px;
  }
- .lines img{
-    width: 40px;
+ .right-side{
+  padding-left: 2em;
+  padding-top: 2em;
+  font-size: 15px;
  }
-
- 
+ .right-side .profile{
+  display: flex;
+ }
+ .right-side .profile .profile-left{
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+ }
+ .right-side .profile .profile-left .img img{
+  border-radius: 50%;
+  width: 60px;
+  margin-right: 10px;
+  /* border: 2px solid transparent;
+  object-fit: cover; */
+ }
+ .right-side .profile .profile-left .dets .profile-name{
+  font-weight: 500;
+  padding-bottom: 3px;
+ }
+ .right-side .profile .profile-left .dets .full-name{
+  font-weight: 100;
+  color: grey;
+ }
+ .right-side .profile .profile-right p{
+  margin-top: 20px;
+  font-size: 13px;
+  color: rgb(68, 68, 255);
+  font-weight: 600;
+ }
+ .right-side .suggestions{
+  display: flex;
+ }
+ .right-side .suggestions p{
+  color: grey;
+ }
+ .right-side .suggestions .suggest{
+  margin-right: 20px;
+ }
+ .right-side .suggestions .see{
+  margin-left: 100px;
+ }
+ .right-side .people{
+  margin-top: 15px;
+  display: flex;
+ }
+ .right-side .people .people-1{
+  display: flex;
+ }
+ .right-side .people .people-1 .img img{
+  border-radius: 50%;
+  width: 30px;
+  margin-right: 10px;
+ }
+ .right-side .people .people-1 .people-dets{
+padding-left: 10px;
+ }
+ .right-side .people .people-1 .people-dets .profile-name{
+  font-weight: 600;
+  font-size: 13px;
+ }
+ .right-side .people .people-1 .people-dets .more-dets{
+  font-weight: 100;
+  font-size: 13px;
+  color: grey;
+ }
+ .right-side .people .people-right p{
+  padding-left: 90px;
+  font-size: 13px;
+  color: rgb(68, 68, 255);
+  font-weight: 600;
+ }
+ .right-side .footer{
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.right-side .footer .footer-list li{
+  
+  
+}

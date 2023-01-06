@@ -1,74 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Home Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="wrapper">
-    <div class="sidebar">
+      <div class="sidebar">
         <a href="#" class="logo">
-            <img src="instagram-icon.png" alt="instagram-icon">
+          <img src="instagram-icon.png" alt="instagram-icon" />
         </a>
-        <a href="#" class="home">
-            <img src="home-icon.jpg" alt="home icon">
-            <h5>Home</h5>
-        </a>
-        <a href="#" class="search">
-            <img src="search-icon.png" alt="search icon">
+        <div class="nav">
+          <a href="#" class="icon">
+            <img src="home-icon.jpg" alt="home icon" />
+            <p>Home</p>
+          </a>
+          <a href="#" class="icon">
+            <img src="search-icon.png" alt="search icon" />
             <p>Search</p>
-        </a>
-        <a href="#" class="explore">
-            <img src="explore-icon.png" alt="explore icon">
+          </a>
+          <a href="#" class="icon">
+            <img src="explore-icon.png" alt="explore icon" />
             <p>Explore</p>
-        </a>
-        <a href="#" class="message">
-            <img src="message-icon.PNG" alt="message icon">
+          </a>
+          <a href="#" class="icon">
+            <img src="message-icon.PNG" alt="message icon" />
             <p>Messages</p>
-        </a>
-        <a href="#" class="notification">
-            <img src="notifications-icon.PNG" alt="notification icon">
+          </a>
+          <a href="#" class="icon">
+            <img src="notifications-icon.PNG" alt="notification icon" />
             <p>Notifications</p>
-        </a>
-        <a href="#" class="create">
-            <img src="create-icon.PNG" alt="create icon">
+          </a>
+          <a href="#" class="icon">
+            <img src="create-icon.PNG" alt="create icon" />
             <p>Create</p>
-        </a>
-        <a href="#" class="profile">
-            <img src="profile-icon.PNG" alt="Profile icon">
+          </a>
+          <a href="#" class="icon">
+            <img src="profile-icon.PNG" alt="Profile icon" />
             <p>Profile</p>
-        </a>
-    </div>
+          </a>
+        </div>
+        </div>
     <section class="main">
-        <div class="stories">
-            <img class="img1" src="story-1.png" alt="1">
-            <img src="story-2.png" alt="2">
-            <img src="story-3.png" alt="1">
-            <img src="story-4.png" alt="1">
-            <img src="story-5.png" alt="5">
-            <img src="story-6.png" alt="1">
-        </div>
-        <div class="post">
-            <section class="post-1">
-                <div class="name">
-                    <div class="img-name">
-                    <img src="profile-icon.PNG">
-                    <h6>ooluchi_</h6>
-                    </div>
-                    <div class="lines">
-                        <img src="dots.icon.png">
+        <div class="left-side">
+          <div class="story">
+            <div class="stories">
+                <a href="#"> <img src="story-1.png" width="60" height="60" alt="1"></a>
+                <p>dog_kennel</p>
+            </div>
+            <div class="stories">
+                <a href="#"> <img src="story-2.png" width="60" height="60" alt="2"></a>
+                <p>flight_house</p>
+            </div>
+            <div class="stories">
+                <a href="#"><img src="story-3.png" width="60" height="60" alt="3"></a>
+                <p>beautyclass</p>
+            </div>
+            <div class="stories">
+                <a href="#"><img src="story-4.png" width="60" height="60" alt="4"></a>
+                <p>floweries_garments</p>
+            </div>
+            <div class="stories">
+                <a href="#"><img src="story-5.png" width="60" height="60" alt="5"></a>
+                <p>paintandlearn</p>
+            </div>
+            <div class="stories">
+                <a href="#"><img src="story-6.png" width="60" height="60" alt="6"></a>
+                <p>plantatree</p>
+            </div>
+            </div>
+        
+            <div class="posts">
+                <div class="posts-title">
+                    <div class="posts-left">
+                        <div class="image">
+                            <img src="story-5.png" width="25" height="25" alt="cloud">
+                        </div>
+                        <div class="details">
+                            <p class="username">paintandlearn</p>
+                        </div>
+                    </div> 
+                    <div class="posts-right">
+                        <img src="dots.icon.png" width="30" height="30">
                     </div>
                 </div>
-                <div>
-                    <img src="post-1.jpg">
+                <div class="posts-content">
+                    <img src="post-1.jpg" width="499" height="600" alt="post">
                 </div>
-            </section>
+                <div class="posts-footer">
+                    <div class="footer-icon">
+                        <div class="left-icon">
+                            <img src="notifications-icon.PNG" width="40" height="35" alt="like">
+                            <img src="comments.icon.png" width="35" height="30" alt="comment">
+                            <img src="share.icon.png" width="25" height="25" alt="share">
+                        </div>
+                        
+                        <div class="right-icon">
+                            <img src="save.icon.png" width="25" height="20" alt="save">
+                        </div>
+                        </div>
+                        <div class="posts-footer-content">
+                            <p class="likes">200 likes</p>
+                            <p class="name">paintandlearn <span>Great attempt from a beginner</span></p>
+                            <p class="comments">View all 108 comments</p>
+                            <p class="post-time">3 DAYS AGO</p>
+                        </div>
+                        <div class="adding-comments">
+                            <div class="comments-left">
+                                <img src="smile.icon.png" width="20" height="20">
+                                <input text="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="comments-left">
+                                <p>Post</p>
+                            </div>
+                        </div>
+                </div>
+              </div>
+              <div class="posts">
+                <div class="posts-title">
+                    <div class="posts-left">
+                        <div class="image">
+                          <img src="story-5.png" width="25" height="25" alt="cloud">
+                        </div>
+                        <div class="details">
+                            <p class="username">beautyclass</p>
+                        </div>
+                      </div>
+                      <div class="posts-right">
+                        <img src="dots.icon.png" width="30" height="30">
+                    </div>
+                </div>
+                <div class="posts-content">
+                  <img src="post-2.png" width="499" height="600" alt="post">
+              </div>
+              <div class="posts-footer">
+                  <div class="footer-icon">
+                      <div class="left-icon">
+                          <img src="notifications-icon.PNG" width="40" height="35" alt="like">
+                          <img src="comments.icon.png" width="35" height="30" alt="comment">
+                          <img src="share.icon.png" width="25" height="25" alt="share">
+                      </div>
+                      <div class="right-icon">
+                        <img src="save.icon.png" width="25" height="20" alt="save">
+                    </div>
+                    </div>
+                    <div class="posts-footer-content">
+                        <p class="likes">250 likes</p>
+                        <p class="name">beautyclass <span>ANTICIPATE</span></p>
+                        <p class="comments">View all 208 comments</p>
+                        <p class="post-time">1 DAY AGO</p>
+                    </div>
+                    <div class="adding-comments">
+                        <div class="comments-left">
+                            <img src="smile.icon.png" width="20" height="20">
+                            <input text="text" placeholder="Add a comment...">
+                        </div>
+                        <div class="comments-left">
+                            <p>Post</p>
+                        </div>
+                    </div>
+            </div>
+          </div>
+          <div class="posts">
+            <div class="posts-title">
+                <div class="posts-left">
+                    <div class="image">
+                      <img src="story-5.png" width="25" height="25" alt="cloud">
+                    </div>
+                    <div class="details">
+                        <p class="username">beautyclass</p>
+                    </div>
+                  </div>
+                  <div class="posts-right">
+                    <img src="dots.icon.png" width="30" height="30">
+                </div>
+            </div>
+            <div class="posts-content">
+              <img src="post-3.jpg" width="499" height="600" alt="post">
+          </div>
+          <div class="posts-footer">
+              <div class="footer-icon">
+                  <div class="left-icon">
+                      <img src="notifications-icon.PNG" width="40" height="35" alt="like">
+                      <img src="comments.icon.png" width="35" height="30" alt="comment">
+                      <img src="share.icon.png" width="25" height="25" alt="share">
+                  </div>
+                  <div class="right-icon">
+                    <img src="save.icon.png" width="25" height="20" alt="save">
+                </div>
+                </div>
+                <div class="posts-footer-content">
+                    <p class="likes">1000 likes</p>
+                    <p class="name">dog_kennel <span>ANTICIPATE</span></p>
+                    <p class="comments">View all 208 comments</p>
+                    <p class="post-time">12 HOURS AGO</p>
+                </div>
+                <div class="adding-comments">
+                    <div class="comments-left">
+                        <img src="smile.icon.png" width="20" height="20">
+                        <input text="text" placeholder="Add a comment...">
+                    </div>
+                    <div class="comments-left">
+                        <p>Post</p>
+                    </div>
+                </div>
         </div>
-    </section>
-
-</div>
-</body>
+        </div>
+        </div>
+        <div class="right-side">
+          <div class="profile">
+            <div class="profile-left">
+              <div class="img">
+                <img src="my-profile.jpg" alt="me">
+              </div>
+              <div class="dets">
+                <p class="profile-name">ooluchi</p>
+                <p class="full-name">Oluchi Okoro </p>
+              
+              </div>
+            </div>
+          <div class="profile-right">
+            <p>Switch</p>
+          </div>
+          </div>
+          <div class="suggestions">
+            <div class="suggest">
+              <p>Suggestions For You</p>
+            </div>
+            <div class="see">
+              <p>See All</p>
+            </div>
+          </div>
+        <div class="people">
+          <div class="people-left">
+            <div class="people-1">
+              <div class="img">
+                <img src="others-first.jpg" alt="me">
+              </div>
+              <div class="people-dets">
+              <p class="profile-name">asap_leloo</p>
+                <p class="more-dets">Suggested for you </p>
+            </div>
+          </div>
+          </div>
+          <div class="people-right">
+            <p>Follow</p>
+            </div>
+            </div>
+            <div class="people">
+              <div class="people-left">
+                <div class="people-1">
+                  <div class="img">
+                    <img src="others-second.jpg" alt="me">
+                  </div>
+                  <div class="people-dets">
+                  <p class="profile-name">asap_beloo</p>
+                    <p class="more-dets">Suggested for you </p>
+                </div>
+              </div>
+              </div>
+              <div class="people-right">
+                <p>Follow</p>
+                </div>
+                </div>
+                <div class="people">
+          <div class="people-left">
+            <div class="people-1">
+              <div class="img">
+                <img src="others-third.jpg" alt="me">
+              </div>
+              <div class="people-dets">
+              <p class="profile-name">brad_leloo</p>
+                <p class="more-dets">Suggested for you </p>
+            </div>
+          </div>
+          </div>
+        
+          <div class="people-right">
+            <p>Follow</p>
+            </div>
+            </div>
+            <div class="footer">
+              <div class="footer-list">
+                <ul>
+                  <li>About</li>
+                  <li>Help</li>
+                  <li>Press</li>
+                  <li>API</li>
+                  <li>Jobs</li>
+                  <li>Privacy</li>
+                  <li>Terms</li>
+                  <li>Locations</li>
+                  <li>Language</li>
+                </ul>
+              </div>
+            </div>
+      </div>
+      
+      </section>
+    </div>
+  </body>
 </html>
